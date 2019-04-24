@@ -1,0 +1,3 @@
+[submodule "AlexHicks-SagoTouch/Assets/Framework/SagoTouch"]
+	path = AlexHicks-SagoTouch/Assets/Framework/SagoTouch
+	url = https://github.com/SagoSago/sago-touch
