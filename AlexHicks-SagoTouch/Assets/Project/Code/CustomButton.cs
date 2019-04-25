@@ -29,6 +29,16 @@
 
 
         #region Methods
+        public void Update() {
+            if (Input.GetKeyUp(KeyCode.P)) {
+                DisableTouchArea();
+            }
+
+            if (Input.GetKeyUp(KeyCode.O)) {
+                EnableTouchArea();
+            }
+        }
+
         public void OnEnable() {
             this.TouchAreaObserver.TouchUpDelegate = OnTouchUp;
         }
