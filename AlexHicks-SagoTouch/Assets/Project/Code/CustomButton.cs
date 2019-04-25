@@ -40,6 +40,35 @@
         public void OnTouchUp(TouchArea touchArea, Touch touch) {
             Debug.LogFormat("Touch Up: {0}", this);
         }
+
+        #region Touch Area
+        //Disable our Touch Area
+        private void DisableTouchArea() {
+            this.TouchArea.enabled = false;
+        }
+
+        //Enable our Touch Area
+        private void EnableTouchArea() {
+            this.TouchArea.enabled = true;
+        }
+        #endregion
+
+
+        #region Touch Dispatcher 
+        //Disable All input
+        private void DisableAllTouchInput() {
+            if(TouchDispatcher.Instance) {
+                TouchDispatcher.Instance.enabled = false;
+            }
+        }
+
+        //Enable all input
+        private void EnableAllTouchInput() {
+            if (TouchDispatcher.Instance) {
+                TouchDispatcher.Instance.enabled = true;
+            }
+        }
+        #endregion
         #endregion
     }
 }
