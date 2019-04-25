@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{4D332CB1-6FC0-8200-11CF-294895D076CC}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Project/Code/CustomTouch.cs">
+    <Files>
+      <File FileName="Assets/Project/Code/CustomTouch.cs" Line="4" Column="38" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="AlexHicks-SagoTouch" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Project" expanded="True">
+                <Node name="Code" expanded="True">
+                  <Node name="CustomTouch.cs" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.AlexHicks-SagoTouch PreferredExecutionTarget="8849a1db-ba6c-4c87-845a-b81f86c6f4d3" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
